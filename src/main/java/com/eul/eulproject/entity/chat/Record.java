@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class Record {
     private int ID;
-    private int from;
-    private int to;
+    private int FROM_id;
+    private int TO_id;
     private Date time;
     private String content;
 
@@ -17,20 +17,20 @@ public class Record {
         this.ID = ID;
     }
 
-    public int getFrom() {
-        return from;
+    public int getFROM_id() {
+        return FROM_id;
     }
 
-    public void setFrom(int from) {
-        this.from = from;
+    public void setFROM_id(int FROM_id) {
+        this.FROM_id = FROM_id;
     }
 
-    public int getTo() {
-        return to;
+    public int getTO_id() {
+        return TO_id;
     }
 
-    public void setTo(int to) {
-        this.to = to;
+    public void setTO_id(int TO_id) {
+        this.TO_id = TO_id;
     }
 
     public Date getTime() {

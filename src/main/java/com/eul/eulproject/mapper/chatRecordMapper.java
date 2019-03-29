@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public interface chatRecordMapper {
 
-    @Select("SELECT * FROM eul.chatrecord where FROM = #{Uid}")
+    @Select("SELECT * FROM eul.chatrecord where FROM_id = #{Uid}")
     List<Record> getByUid(String Uid);
 
     @Insert("insert into eul.chatrecord(ID, `FROM`, `TO`, time, content) VALUES (#{ID} ,#{FROM} ,#{TO} ,#{time} ,#{content})")
