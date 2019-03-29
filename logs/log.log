@@ -1,0 +1,826 @@
+2019-03-29 09:45:55.826 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 50 ] - Starting EulprojectApplication on MACHENI-3TD0CUP with PID 18316 (started by SANNBAN in E:\程序代码\我的项目\eulproject)
+2019-03-29 09:45:55.857 [ background-preinit ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 09:45:55.865 [ main ] - [ DEBUG ] [ com.eul.eulproject.EulprojectApplication : 53 ] - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-29 09:45:55.865 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-29 09:45:55.871 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 09:45:55.872 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 09:45:55.872 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 09:45:55.873 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 09:45:55.873 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 09:45:56.794 [ main ] - [ DEBUG ] [ org.apache.ibatis.logging.LogFactory : 105 ] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-29 09:45:56.798 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\LoginMapper.class]
+2019-03-29 09:45:56.799 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\ScheduleMapper.class]
+2019-03-29 09:45:56.799 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\chatRecordMapper.class]
+2019-03-29 09:45:56.799 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\classMapper.class]
+2019-03-29 09:45:56.800 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\courseMapper.class]
+2019-03-29 09:45:56.800 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\friendsMapper.class]
+2019-03-29 09:45:56.801 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\majorMapper.class]
+2019-03-29 09:45:56.801 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\messageMapper.class]
+2019-03-29 09:45:56.801 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\schoolMapper.class]
+2019-03-29 09:45:56.802 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'loginMapper' and 'com.eul.eulproject.mapper.LoginMapper' mapperInterface
+2019-03-29 09:45:56.803 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'loginMapper'.
+2019-03-29 09:45:56.804 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'scheduleMapper' and 'com.eul.eulproject.mapper.ScheduleMapper' mapperInterface
+2019-03-29 09:45:56.804 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'scheduleMapper'.
+2019-03-29 09:45:56.804 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'chatRecordMapper' and 'com.eul.eulproject.mapper.chatRecordMapper' mapperInterface
+2019-03-29 09:45:56.804 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'chatRecordMapper'.
+2019-03-29 09:45:56.805 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'classMapper' and 'com.eul.eulproject.mapper.classMapper' mapperInterface
+2019-03-29 09:45:56.805 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'classMapper'.
+2019-03-29 09:45:56.805 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'courseMapper' and 'com.eul.eulproject.mapper.courseMapper' mapperInterface
+2019-03-29 09:45:56.805 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+2019-03-29 09:45:56.806 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'friendsMapper' and 'com.eul.eulproject.mapper.friendsMapper' mapperInterface
+2019-03-29 09:45:56.806 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'friendsMapper'.
+2019-03-29 09:45:56.806 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'majorMapper' and 'com.eul.eulproject.mapper.majorMapper' mapperInterface
+2019-03-29 09:45:56.806 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'majorMapper'.
+2019-03-29 09:45:56.807 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'messageMapper' and 'com.eul.eulproject.mapper.messageMapper' mapperInterface
+2019-03-29 09:45:56.807 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'messageMapper'.
+2019-03-29 09:45:56.807 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'schoolMapper' and 'com.eul.eulproject.mapper.schoolMapper' mapperInterface
+2019-03-29 09:45:56.808 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'schoolMapper'.
+2019-03-29 09:45:57.311 [ main ] - [ INFO  ] [ com.eul.eulproject.configuration.shiroConfiguation : 79 ] - 修改了shiro的验证模式
+2019-03-29 09:45:57.370 [ main ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 480 ] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@b4aac2
+2019-03-29 09:45:57.434 [ main ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionFactoryBean : 49 ] - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-29 09:45:58.447 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-29 09:45:58.457 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-29 09:45:58.458 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-29 09:45:58.463 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;D:\Putty\;E:\JAVA\maven\apache-maven-3.5.4-bin_2\apache-maven-3.5.4\bin\;D:\Microsoft VS Code\bin;D:\Git\cmd;E:\Python\mongodb-win32-x86_64-2008plus-ssl-4.0.2;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;E:\Node.JS\Node_global;D:\Redis\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Node.js;C:\ProgramData\chocolatey\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts;D:\Microsoft VS Code\bin;E:\bandizip\;C:\Users\SANNBAN\AppData\Local\Microsoft\WindowsApps;E:\Node.JS\Node_global;C:\Users\SANNBAN\AppData\Local\GitHubDesktop\bin;D:\webStorm\WebStorm 2018.3.5\bin;;C:\Users\SANNBAN\AppData\Roaming\npm;D:\pyCharm\PyCharm 2018.3.5\bin;;D:\Clion\CLion 2018.3.4\bin;;.]
+2019-03-29 09:45:58.605 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-29 09:45:58.610 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 424 ] - Creating Shiro Filter instance.
+2019-03-29 09:45:58.626 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'requestContextFilter'
+2019-03-29 09:45:58.630 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'hiddenHttpMethodFilter'
+2019-03-29 09:45:58.635 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'formContentFilter'
+2019-03-29 09:45:58.637 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'characterEncodingFilter'
+2019-03-29 09:45:58.728 [ main ] - [ INFO  ] [ com.eul.eulproject.tool.springUtil : 21 ] - 获取Spring上下文成功
+2019-03-29 09:45:58.744 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 09:45:58.745 [ main ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 09:45:58.749 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 09:45:58.751 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 148 ] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-29 09:45:58.752 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 180 ] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-29 09:45:58.753 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 194 ] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-29 09:45:58.754 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-29 09:45:58.755 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 53 ] - Trying to load META-INF/validation.xml via user class loader
+2019-03-29 09:45:58.756 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2019-03-29 09:45:58.756 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-29 09:45:58.757 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-29 09:45:58.763 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 09:45:58.764 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 09:45:58.764 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 09:45:58.765 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 09:45:58.765 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 09:45:59.187 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2019-03-29 09:45:59.218 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 59 ] - Started EulprojectApplication in 3.827 seconds (JVM running for 5.217)
+2019-03-29 09:45:59.228 [ main ] - [ DEBUG ] [ i.n.util.internal.logging.InternalLoggerFactory : 71 ] - Using SLF4J as the default logging framework
+2019-03-29 09:45:59.230 [ main ] - [ DEBUG ] [ io.netty.channel.MultithreadEventLoopGroup : 76 ] - -Dio.netty.eventLoopThreads: 16
+2019-03-29 09:45:59.257 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.noKeySetOptimization: false
+2019-03-29 09:45:59.258 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-29 09:45:59.260 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - Platform: Windows
+2019-03-29 09:45:59.261 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - -Dio.netty.noUnsafe: false
+2019-03-29 09:45:59.262 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - Java version: 8
+2019-03-29 09:45:59.263 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.theUnsafe: available
+2019-03-29 09:45:59.264 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.copyMemory: available
+2019-03-29 09:45:59.265 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - java.nio.Buffer.address: available
+2019-03-29 09:45:59.266 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - direct buffer constructor: available
+2019-03-29 09:45:59.267 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.Bits.unaligned: available, true
+2019-03-29 09:45:59.267 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-29 09:45:59.268 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-29 09:45:59.268 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - sun.misc.Unsafe: available
+2019-03-29 09:45:59.269 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.tmpdir: C:\Users\SANNBAN\AppData\Local\Temp (java.io.tmpdir)
+2019-03-29 09:45:59.270 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2019-03-29 09:45:59.271 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.noPreferDirect: false
+2019-03-29 09:45:59.272 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.maxDirectMemory: 259522560 bytes
+2019-03-29 09:45:59.272 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-29 09:45:59.273 [ main ] - [ DEBUG ] [ io.netty.util.internal.CleanerJava6 : 71 ] - java.nio.ByteBuffer.cleaner(): available
+2019-03-29 09:45:59.274 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-29 09:45:59.307 [ main ] - [ INFO  ] [ c.e.e.controller.chat.netty.WebSocketServer : 26 ] - --启动websocket服务--
+2019-03-29 09:45:59.315 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.processId: 18316 (auto-detected)
+2019-03-29 09:45:59.317 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv4Stack: false
+2019-03-29 09:45:59.317 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv6Addresses: false
+2019-03-29 09:45:59.671 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 86 ] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-03-29 09:45:59.672 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 81 ] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-03-29 09:46:00.027 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2019-03-29 09:46:00.032 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-29 09:46:00.032 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-29 09:46:00.044 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.level: simple
+2019-03-29 09:46:00.045 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-29 09:46:00.061 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numHeapArenas: 2
+2019-03-29 09:46:00.061 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numDirectArenas: 2
+2019-03-29 09:46:00.062 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.pageSize: 8192
+2019-03-29 09:46:00.062 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxOrder: 11
+2019-03-29 09:46:00.062 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-29 09:46:00.062 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-29 09:46:00.062 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-29 09:46:00.062 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-29 09:46:00.062 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-29 09:46:00.063 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-29 09:46:00.063 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-29 09:46:00.071 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.allocator.type: pooled
+2019-03-29 09:46:00.071 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-29 09:46:00.071 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-29 09:47:42.550 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 50 ] - Starting EulprojectApplication on MACHENI-3TD0CUP with PID 9136 (started by SANNBAN in E:\程序代码\我的项目\eulproject)
+2019-03-29 09:47:42.553 [ main ] - [ DEBUG ] [ com.eul.eulproject.EulprojectApplication : 53 ] - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-29 09:47:42.555 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-29 09:47:42.612 [ background-preinit ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 09:47:42.620 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 09:47:42.621 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 09:47:42.621 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 09:47:42.622 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 09:47:42.622 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 09:47:43.092 [ main ] - [ DEBUG ] [ org.apache.ibatis.logging.LogFactory : 105 ] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-29 09:47:43.097 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\LoginMapper.class]
+2019-03-29 09:47:43.097 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\ScheduleMapper.class]
+2019-03-29 09:47:43.098 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\chatRecordMapper.class]
+2019-03-29 09:47:43.098 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\classMapper.class]
+2019-03-29 09:47:43.098 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\courseMapper.class]
+2019-03-29 09:47:43.098 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\friendsMapper.class]
+2019-03-29 09:47:43.099 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\majorMapper.class]
+2019-03-29 09:47:43.099 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\messageMapper.class]
+2019-03-29 09:47:43.099 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\schoolMapper.class]
+2019-03-29 09:47:43.100 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'loginMapper' and 'com.eul.eulproject.mapper.LoginMapper' mapperInterface
+2019-03-29 09:47:43.101 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'loginMapper'.
+2019-03-29 09:47:43.101 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'scheduleMapper' and 'com.eul.eulproject.mapper.ScheduleMapper' mapperInterface
+2019-03-29 09:47:43.101 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'scheduleMapper'.
+2019-03-29 09:47:43.102 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'chatRecordMapper' and 'com.eul.eulproject.mapper.chatRecordMapper' mapperInterface
+2019-03-29 09:47:43.102 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'chatRecordMapper'.
+2019-03-29 09:47:43.102 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'classMapper' and 'com.eul.eulproject.mapper.classMapper' mapperInterface
+2019-03-29 09:47:43.102 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'classMapper'.
+2019-03-29 09:47:43.103 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'courseMapper' and 'com.eul.eulproject.mapper.courseMapper' mapperInterface
+2019-03-29 09:47:43.103 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+2019-03-29 09:47:43.103 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'friendsMapper' and 'com.eul.eulproject.mapper.friendsMapper' mapperInterface
+2019-03-29 09:47:43.103 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'friendsMapper'.
+2019-03-29 09:47:43.103 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'majorMapper' and 'com.eul.eulproject.mapper.majorMapper' mapperInterface
+2019-03-29 09:47:43.104 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'majorMapper'.
+2019-03-29 09:47:43.104 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'messageMapper' and 'com.eul.eulproject.mapper.messageMapper' mapperInterface
+2019-03-29 09:47:43.104 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'messageMapper'.
+2019-03-29 09:47:43.105 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'schoolMapper' and 'com.eul.eulproject.mapper.schoolMapper' mapperInterface
+2019-03-29 09:47:43.105 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'schoolMapper'.
+2019-03-29 09:47:43.547 [ main ] - [ INFO  ] [ com.eul.eulproject.configuration.shiroConfiguation : 79 ] - 修改了shiro的验证模式
+2019-03-29 09:47:43.613 [ main ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 480 ] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@b4aac2
+2019-03-29 09:47:43.670 [ main ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionFactoryBean : 49 ] - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-29 09:47:44.580 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-29 09:47:44.588 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-29 09:47:44.589 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-29 09:47:44.599 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;D:\Putty\;E:\JAVA\maven\apache-maven-3.5.4-bin_2\apache-maven-3.5.4\bin\;D:\Microsoft VS Code\bin;D:\Git\cmd;E:\Python\mongodb-win32-x86_64-2008plus-ssl-4.0.2;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;E:\Node.JS\Node_global;D:\Redis\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Node.js;C:\ProgramData\chocolatey\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts;D:\Microsoft VS Code\bin;E:\bandizip\;C:\Users\SANNBAN\AppData\Local\Microsoft\WindowsApps;E:\Node.JS\Node_global;C:\Users\SANNBAN\AppData\Local\GitHubDesktop\bin;D:\webStorm\WebStorm 2018.3.5\bin;;C:\Users\SANNBAN\AppData\Roaming\npm;D:\pyCharm\PyCharm 2018.3.5\bin;;D:\Clion\CLion 2018.3.4\bin;;.]
+2019-03-29 09:47:44.751 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-29 09:47:44.760 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 424 ] - Creating Shiro Filter instance.
+2019-03-29 09:47:44.780 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'requestContextFilter'
+2019-03-29 09:47:44.786 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'hiddenHttpMethodFilter'
+2019-03-29 09:47:44.790 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'formContentFilter'
+2019-03-29 09:47:44.793 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'characterEncodingFilter'
+2019-03-29 09:47:44.889 [ main ] - [ INFO  ] [ com.eul.eulproject.tool.springUtil : 21 ] - 获取Spring上下文成功
+2019-03-29 09:47:44.908 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 09:47:44.909 [ main ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 09:47:44.913 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 09:47:44.914 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 148 ] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-29 09:47:44.915 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 180 ] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-29 09:47:44.915 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 194 ] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-29 09:47:44.917 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-29 09:47:44.918 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 53 ] - Trying to load META-INF/validation.xml via user class loader
+2019-03-29 09:47:44.918 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2019-03-29 09:47:44.919 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-29 09:47:44.920 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-29 09:47:44.925 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 09:47:44.926 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 09:47:44.926 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 09:47:44.927 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 09:47:44.927 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 09:47:45.381 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2019-03-29 09:47:45.404 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 59 ] - Started EulprojectApplication in 3.186 seconds (JVM running for 4.325)
+2019-03-29 09:47:45.413 [ main ] - [ DEBUG ] [ i.n.util.internal.logging.InternalLoggerFactory : 71 ] - Using SLF4J as the default logging framework
+2019-03-29 09:47:45.414 [ main ] - [ DEBUG ] [ io.netty.channel.MultithreadEventLoopGroup : 76 ] - -Dio.netty.eventLoopThreads: 16
+2019-03-29 09:47:45.434 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.noKeySetOptimization: false
+2019-03-29 09:47:45.434 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-29 09:47:45.436 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - Platform: Windows
+2019-03-29 09:47:45.437 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - -Dio.netty.noUnsafe: false
+2019-03-29 09:47:45.438 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - Java version: 8
+2019-03-29 09:47:45.439 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.theUnsafe: available
+2019-03-29 09:47:45.440 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.copyMemory: available
+2019-03-29 09:47:45.440 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - java.nio.Buffer.address: available
+2019-03-29 09:47:45.441 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - direct buffer constructor: available
+2019-03-29 09:47:45.442 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.Bits.unaligned: available, true
+2019-03-29 09:47:45.442 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-29 09:47:45.442 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-29 09:47:45.442 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - sun.misc.Unsafe: available
+2019-03-29 09:47:45.443 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.tmpdir: C:\Users\SANNBAN\AppData\Local\Temp (java.io.tmpdir)
+2019-03-29 09:47:45.443 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2019-03-29 09:47:45.444 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.noPreferDirect: false
+2019-03-29 09:47:45.445 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.maxDirectMemory: 259522560 bytes
+2019-03-29 09:47:45.445 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-29 09:47:45.445 [ main ] - [ DEBUG ] [ io.netty.util.internal.CleanerJava6 : 71 ] - java.nio.ByteBuffer.cleaner(): available
+2019-03-29 09:47:45.447 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-29 09:47:45.478 [ main ] - [ INFO  ] [ c.e.e.controller.chat.netty.WebSocketServer : 26 ] - --启动websocket服务--
+2019-03-29 09:47:45.485 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.processId: 9136 (auto-detected)
+2019-03-29 09:47:45.487 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv4Stack: false
+2019-03-29 09:47:45.487 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv6Addresses: false
+2019-03-29 09:47:45.870 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 86 ] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-03-29 09:47:45.870 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 81 ] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-03-29 09:47:46.243 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2019-03-29 09:47:46.287 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-29 09:47:46.287 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-29 09:47:46.295 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.level: simple
+2019-03-29 09:47:46.295 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-29 09:47:46.316 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numHeapArenas: 2
+2019-03-29 09:47:46.316 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numDirectArenas: 2
+2019-03-29 09:47:46.316 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.pageSize: 8192
+2019-03-29 09:47:46.317 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxOrder: 11
+2019-03-29 09:47:46.317 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-29 09:47:46.317 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-29 09:47:46.317 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-29 09:47:46.317 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-29 09:47:46.318 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-29 09:47:46.318 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-29 09:47:46.318 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-29 09:47:46.324 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.allocator.type: pooled
+2019-03-29 09:47:46.325 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-29 09:47:46.325 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-29 09:49:26.609 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-29 09:49:30.812 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 09:49:30.822 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d14d2] was not registered for synchronization because synchronization is not active
+2019-03-29 09:49:30.831 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1020 ] - HikariPool-1 - configuration:
+2019-03-29 09:49:30.834 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - allowPoolSuspension.............false
+2019-03-29 09:49:30.834 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - autoCommit......................true
+2019-03-29 09:49:30.835 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - catalog.........................none
+2019-03-29 09:49:30.835 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionInitSql...............none
+2019-03-29 09:49:30.835 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionTestQuery.............none
+2019-03-29 09:49:30.836 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionTimeout...............30000
+2019-03-29 09:49:30.836 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSource......................none
+2019-03-29 09:49:30.837 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceClassName.............none
+2019-03-29 09:49:30.837 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceJNDI..................none
+2019-03-29 09:49:30.838 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceProperties............{password=<masked>}
+2019-03-29 09:49:30.838 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-03-29 09:49:30.838 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - healthCheckProperties...........{}
+2019-03-29 09:49:30.839 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - healthCheckRegistry.............none
+2019-03-29 09:49:30.839 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - idleTimeout.....................600000
+2019-03-29 09:49:30.839 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - initializationFailTimeout.......1
+2019-03-29 09:49:30.839 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - isolateInternalQueries..........false
+2019-03-29 09:49:30.840 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - jdbcUrl.........................jdbc:mysql://localhost:3306/eul?connectTimeout=1000&useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=CTT
+2019-03-29 09:49:30.840 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - leakDetectionThreshold..........0
+2019-03-29 09:49:30.840 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - maxLifetime.....................1800000
+2019-03-29 09:49:30.841 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - maximumPoolSize.................10
+2019-03-29 09:49:30.841 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - metricRegistry..................none
+2019-03-29 09:49:30.841 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - metricsTrackerFactory...........none
+2019-03-29 09:49:30.842 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - minimumIdle.....................10
+2019-03-29 09:49:30.842 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - password........................<masked>
+2019-03-29 09:49:30.842 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - poolName........................"HikariPool-1"
+2019-03-29 09:49:30.842 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - readOnly........................false
+2019-03-29 09:49:30.843 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - registerMbeans..................false
+2019-03-29 09:49:30.843 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - scheduledExecutor...............none
+2019-03-29 09:49:30.843 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - schema..........................none
+2019-03-29 09:49:30.844 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - threadFactory...................internal
+2019-03-29 09:49:30.844 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - transactionIsolation............default
+2019-03-29 09:49:30.845 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - username........................"root"
+2019-03-29 09:49:30.845 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - validationTimeout...............5000
+2019-03-29 09:49:30.845 [ http-nio-8088-exec-3 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-29 09:49:30.966 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 545 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e9c0ef
+2019-03-29 09:49:30.968 [ http-nio-8088-exec-3 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-29 09:49:30.972 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@30326645 wrapping com.mysql.cj.jdbc.ConnectionImpl@e9c0ef] will not be managed by Spring
+2019-03-29 09:49:30.978 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ c.e.eulproject.mapper.ScheduleMapper.getCourseList : 159 ] - ==>  Preparing: SELECT course FROM eul.schedule where Uid = ? 
+2019-03-29 09:49:31.003 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ c.e.eulproject.mapper.ScheduleMapper.getCourseList : 159 ] - ==> Parameters: 12(String)
+2019-03-29 09:49:31.034 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ c.e.eulproject.mapper.ScheduleMapper.getCourseList : 159 ] - <==      Total: 3
+2019-03-29 09:49:31.036 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d14d2]
+2019-03-29 09:49:31.038 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 09:49:31.039 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b4319] was not registered for synchronization because synchronization is not active
+2019-03-29 09:49:31.039 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@24752036 wrapping com.mysql.cj.jdbc.ConnectionImpl@e9c0ef] will not be managed by Spring
+2019-03-29 09:49:31.040 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==>  Preparing: SELECT * FROM eul.course where ID = ? 
+2019-03-29 09:49:31.041 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==> Parameters: 3(String)
+2019-03-29 09:49:31.049 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 09:49:31.050 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 39(String)
+2019-03-29 09:49:31.052 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======>  Preparing: SELECT * FROM eul.school where ID = ? 
+2019-03-29 09:49:31.053 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======> Parameters: 1(String)
+2019-03-29 09:49:31.062 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:49:31.063 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 09:49:31.063 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 4(String)
+2019-03-29 09:49:31.066 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:49:31.067 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 09:49:31.068 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - <==      Total: 1
+2019-03-29 09:49:31.068 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b4319]
+2019-03-29 09:49:31.068 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 09:49:31.069 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-03-29 09:49:31.069 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a1886] was not registered for synchronization because synchronization is not active
+2019-03-29 09:49:31.069 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@3418379 wrapping com.mysql.cj.jdbc.ConnectionImpl@e9c0ef] will not be managed by Spring
+2019-03-29 09:49:31.069 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==>  Preparing: SELECT * FROM eul.course where ID = ? 
+2019-03-29 09:49:31.070 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==> Parameters: 1(String)
+2019-03-29 09:49:31.072 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 09:49:31.072 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 19(String)
+2019-03-29 09:49:31.074 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@132e581
+2019-03-29 09:49:31.074 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======>  Preparing: SELECT * FROM eul.school where ID = ? 
+2019-03-29 09:49:31.075 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======> Parameters: 1(String)
+2019-03-29 09:49:31.077 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:49:31.078 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fefba
+2019-03-29 09:49:31.078 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 09:49:31.079 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 5(String)
+2019-03-29 09:49:31.081 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:49:31.082 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 09:49:31.082 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f53f45
+2019-03-29 09:49:31.082 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - <==      Total: 1
+2019-03-29 09:49:31.083 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a1886]
+2019-03-29 09:49:31.083 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 09:49:31.083 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ef87e] was not registered for synchronization because synchronization is not active
+2019-03-29 09:49:31.084 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@16783683 wrapping com.mysql.cj.jdbc.ConnectionImpl@e9c0ef] will not be managed by Spring
+2019-03-29 09:49:31.084 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==>  Preparing: SELECT * FROM eul.course where ID = ? 
+2019-03-29 09:49:31.085 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==> Parameters: 8(String)
+2019-03-29 09:49:31.086 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2010f5
+2019-03-29 09:49:31.086 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 09:49:31.086 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 80(String)
+2019-03-29 09:49:31.088 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======>  Preparing: SELECT * FROM eul.school where ID = ? 
+2019-03-29 09:49:31.088 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======> Parameters: 1(String)
+2019-03-29 09:49:31.089 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@105824f
+2019-03-29 09:49:31.089 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:49:31.090 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 09:49:31.091 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 2(String)
+2019-03-29 09:49:31.092 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:49:31.093 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 09:49:31.093 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e2c64
+2019-03-29 09:49:31.093 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - <==      Total: 1
+2019-03-29 09:49:31.094 [ http-nio-8088-exec-3 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ef87e]
+2019-03-29 09:49:31.098 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10b455c
+2019-03-29 09:49:31.102 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1547494
+2019-03-29 09:49:31.105 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@165be1a
+2019-03-29 09:49:31.106 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:50:01.072 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:50:31.074 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:51:01.076 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:51:31.079 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:52:01.081 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:52:31.083 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:53:01.084 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:53:31.085 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:54:01.088 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:54:31.089 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:55:01.090 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:55:31.092 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:56:01.095 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:56:21.389 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 09:56:21.390 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a24da] was not registered for synchronization because synchronization is not active
+2019-03-29 09:56:21.391 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@15583407 wrapping com.mysql.cj.jdbc.ConnectionImpl@e9c0ef] will not be managed by Spring
+2019-03-29 09:56:21.392 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==>  Preparing: SELECT * FROM eul.course where ID = ? 
+2019-03-29 09:56:21.394 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - ==> Parameters: 3(String)
+2019-03-29 09:56:21.396 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 09:56:21.397 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 39(String)
+2019-03-29 09:56:21.399 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======>  Preparing: SELECT * FROM eul.school where ID = ? 
+2019-03-29 09:56:21.400 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======> Parameters: 1(String)
+2019-03-29 09:56:21.403 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:56:21.403 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 09:56:21.404 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 4(String)
+2019-03-29 09:56:21.405 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 09:56:21.406 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 09:56:21.407 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ com.eul.eulproject.mapper.courseMapper.getByID : 159 ] - <==      Total: 1
+2019-03-29 09:56:21.407 [ http-nio-8088-exec-6 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a24da]
+2019-03-29 09:56:31.097 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:57:01.099 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:57:31.101 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:58:01.103 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:58:31.105 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:59:01.106 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 09:59:31.107 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:00:01.110 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:00:31.112 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:01:01.113 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:01:31.115 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:02:01.117 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:02:31.119 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:03:01.121 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:03:31.124 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:04:01.126 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:04:31.127 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:05:01.127 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:05:31.129 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:06:01.130 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:06:31.133 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:07:01.134 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:07:31.136 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:08:01.138 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:08:31.139 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:09:01.141 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:09:31.143 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:10:01.145 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:10:31.147 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:11:01.149 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:11:31.152 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:12:01.154 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:12:31.156 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:13:01.158 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:13:30.031 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 10:13:30.032 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1426367] was not registered for synchronization because synchronization is not active
+2019-03-29 10:13:30.033 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@25526463 wrapping com.mysql.cj.jdbc.ConnectionImpl@e9c0ef] will not be managed by Spring
+2019-03-29 10:13:30.034 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ com.eul.eulproject.mapper.friendsMapper.getByUid : 159 ] - ==>  Preparing: SELECT friend from eul.friend where Uid = ? 
+2019-03-29 10:13:30.035 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ com.eul.eulproject.mapper.friendsMapper.getByUid : 159 ] - ==> Parameters: 12(String)
+2019-03-29 10:13:30.039 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - ====>  Preparing: Select IDNumber, realName, school, major, gender, email from eul.message where ID = ? 
+2019-03-29 10:13:30.040 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - ====> Parameters: 22(String)
+2019-03-29 10:13:30.042 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - <====      Total: 1
+2019-03-29 10:13:30.043 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - ====>  Preparing: Select IDNumber, realName, school, major, gender, email from eul.message where ID = ? 
+2019-03-29 10:13:30.044 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - ====> Parameters: 32(String)
+2019-03-29 10:13:30.045 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - <====      Total: 1
+2019-03-29 10:13:30.045 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - ====>  Preparing: Select IDNumber, realName, school, major, gender, email from eul.message where ID = ? 
+2019-03-29 10:13:30.046 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - ====> Parameters: 3(String)
+2019-03-29 10:13:30.047 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ c.eul.eulproject.mapper.messageMapper.getAsFriend : 159 ] - <====      Total: 1
+2019-03-29 10:13:30.048 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ com.eul.eulproject.mapper.friendsMapper.getByUid : 159 ] - <==      Total: 3
+2019-03-29 10:13:30.049 [ http-nio-8088-exec-10 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1426367]
+2019-03-29 10:13:31.160 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:14:01.162 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:14:31.163 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:15:01.164 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:15:31.165 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:16:01.168 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:16:31.169 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:17:01.171 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:17:31.173 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:17:44.897 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 50 ] - Starting EulprojectApplication on MACHENI-3TD0CUP with PID 2808 (started by SANNBAN in E:\程序代码\我的项目\eulproject)
+2019-03-29 10:17:44.900 [ main ] - [ DEBUG ] [ com.eul.eulproject.EulprojectApplication : 53 ] - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-29 10:17:44.902 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-29 10:17:44.952 [ background-preinit ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 10:17:44.958 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 10:17:44.959 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 10:17:44.959 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 10:17:44.960 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 10:17:44.960 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 10:17:45.396 [ main ] - [ DEBUG ] [ org.apache.ibatis.logging.LogFactory : 105 ] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-29 10:17:45.400 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\LoginMapper.class]
+2019-03-29 10:17:45.400 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\ScheduleMapper.class]
+2019-03-29 10:17:45.400 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\chatRecordMapper.class]
+2019-03-29 10:17:45.401 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\classMapper.class]
+2019-03-29 10:17:45.401 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\courseMapper.class]
+2019-03-29 10:17:45.401 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\friendsMapper.class]
+2019-03-29 10:17:45.402 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\majorMapper.class]
+2019-03-29 10:17:45.402 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\messageMapper.class]
+2019-03-29 10:17:45.402 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\schoolMapper.class]
+2019-03-29 10:17:45.403 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'loginMapper' and 'com.eul.eulproject.mapper.LoginMapper' mapperInterface
+2019-03-29 10:17:45.404 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'loginMapper'.
+2019-03-29 10:17:45.404 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'scheduleMapper' and 'com.eul.eulproject.mapper.ScheduleMapper' mapperInterface
+2019-03-29 10:17:45.404 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'scheduleMapper'.
+2019-03-29 10:17:45.405 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'chatRecordMapper' and 'com.eul.eulproject.mapper.chatRecordMapper' mapperInterface
+2019-03-29 10:17:45.405 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'chatRecordMapper'.
+2019-03-29 10:17:45.405 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'classMapper' and 'com.eul.eulproject.mapper.classMapper' mapperInterface
+2019-03-29 10:17:45.405 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'classMapper'.
+2019-03-29 10:17:45.405 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'courseMapper' and 'com.eul.eulproject.mapper.courseMapper' mapperInterface
+2019-03-29 10:17:45.405 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+2019-03-29 10:17:45.406 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'friendsMapper' and 'com.eul.eulproject.mapper.friendsMapper' mapperInterface
+2019-03-29 10:17:45.406 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'friendsMapper'.
+2019-03-29 10:17:45.406 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'majorMapper' and 'com.eul.eulproject.mapper.majorMapper' mapperInterface
+2019-03-29 10:17:45.406 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'majorMapper'.
+2019-03-29 10:17:45.407 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'messageMapper' and 'com.eul.eulproject.mapper.messageMapper' mapperInterface
+2019-03-29 10:17:45.407 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'messageMapper'.
+2019-03-29 10:17:45.407 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'schoolMapper' and 'com.eul.eulproject.mapper.schoolMapper' mapperInterface
+2019-03-29 10:17:45.407 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'schoolMapper'.
+2019-03-29 10:17:45.833 [ main ] - [ INFO  ] [ com.eul.eulproject.configuration.shiroConfiguation : 79 ] - 修改了shiro的验证模式
+2019-03-29 10:17:45.903 [ main ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 480 ] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@b4aac2
+2019-03-29 10:17:45.952 [ main ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionFactoryBean : 49 ] - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-29 10:17:46.827 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-29 10:17:46.837 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-29 10:17:46.838 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-29 10:17:46.844 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;D:\Putty\;E:\JAVA\maven\apache-maven-3.5.4-bin_2\apache-maven-3.5.4\bin\;D:\Microsoft VS Code\bin;D:\Git\cmd;E:\Python\mongodb-win32-x86_64-2008plus-ssl-4.0.2;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;E:\Node.JS\Node_global;D:\Redis\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Node.js;C:\ProgramData\chocolatey\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts;D:\Microsoft VS Code\bin;E:\bandizip\;C:\Users\SANNBAN\AppData\Local\Microsoft\WindowsApps;E:\Node.JS\Node_global;C:\Users\SANNBAN\AppData\Local\GitHubDesktop\bin;D:\webStorm\WebStorm 2018.3.5\bin;;C:\Users\SANNBAN\AppData\Roaming\npm;D:\pyCharm\PyCharm 2018.3.5\bin;;D:\Clion\CLion 2018.3.4\bin;;.]
+2019-03-29 10:17:46.992 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-29 10:17:46.996 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 424 ] - Creating Shiro Filter instance.
+2019-03-29 10:17:47.008 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'requestContextFilter'
+2019-03-29 10:17:47.012 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'hiddenHttpMethodFilter'
+2019-03-29 10:17:47.014 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'formContentFilter'
+2019-03-29 10:17:47.017 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'characterEncodingFilter'
+2019-03-29 10:17:47.098 [ main ] - [ INFO  ] [ com.eul.eulproject.tool.springUtil : 21 ] - 获取Spring上下文成功
+2019-03-29 10:17:47.114 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 10:17:47.114 [ main ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 10:17:47.117 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 10:17:47.118 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 148 ] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-29 10:17:47.119 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 180 ] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-29 10:17:47.119 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 194 ] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-29 10:17:47.120 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-29 10:17:47.121 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 53 ] - Trying to load META-INF/validation.xml via user class loader
+2019-03-29 10:17:47.121 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2019-03-29 10:17:47.122 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-29 10:17:47.122 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-29 10:17:47.127 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 10:17:47.128 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 10:17:47.128 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 10:17:47.128 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 10:17:47.129 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 10:17:47.529 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2019-03-29 10:17:47.557 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 59 ] - Started EulprojectApplication in 2.98 seconds (JVM running for 4.092)
+2019-03-29 10:17:47.564 [ main ] - [ DEBUG ] [ i.n.util.internal.logging.InternalLoggerFactory : 71 ] - Using SLF4J as the default logging framework
+2019-03-29 10:17:47.566 [ main ] - [ DEBUG ] [ io.netty.channel.MultithreadEventLoopGroup : 76 ] - -Dio.netty.eventLoopThreads: 16
+2019-03-29 10:17:47.582 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.noKeySetOptimization: false
+2019-03-29 10:17:47.582 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-29 10:17:47.584 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - Platform: Windows
+2019-03-29 10:17:47.585 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - -Dio.netty.noUnsafe: false
+2019-03-29 10:17:47.586 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - Java version: 8
+2019-03-29 10:17:47.586 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.theUnsafe: available
+2019-03-29 10:17:47.587 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.copyMemory: available
+2019-03-29 10:17:47.588 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - java.nio.Buffer.address: available
+2019-03-29 10:17:47.588 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - direct buffer constructor: available
+2019-03-29 10:17:47.589 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.Bits.unaligned: available, true
+2019-03-29 10:17:47.589 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-29 10:17:47.589 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-29 10:17:47.589 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - sun.misc.Unsafe: available
+2019-03-29 10:17:47.590 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.tmpdir: C:\Users\SANNBAN\AppData\Local\Temp (java.io.tmpdir)
+2019-03-29 10:17:47.590 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2019-03-29 10:17:47.592 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.noPreferDirect: false
+2019-03-29 10:17:47.592 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.maxDirectMemory: 259522560 bytes
+2019-03-29 10:17:47.592 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-29 10:17:47.594 [ main ] - [ DEBUG ] [ io.netty.util.internal.CleanerJava6 : 71 ] - java.nio.ByteBuffer.cleaner(): available
+2019-03-29 10:17:47.595 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-29 10:17:47.626 [ main ] - [ INFO  ] [ c.e.e.controller.chat.netty.WebSocketServer : 26 ] - --启动websocket服务--
+2019-03-29 10:17:47.634 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.processId: 2808 (auto-detected)
+2019-03-29 10:17:47.637 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv4Stack: false
+2019-03-29 10:17:47.637 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv6Addresses: false
+2019-03-29 10:17:47.978 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 86 ] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-03-29 10:17:47.979 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 81 ] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-03-29 10:17:48.326 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2019-03-29 10:17:48.330 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-29 10:17:48.330 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-29 10:17:48.337 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.level: simple
+2019-03-29 10:17:48.337 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-29 10:17:48.348 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numHeapArenas: 2
+2019-03-29 10:17:48.348 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numDirectArenas: 2
+2019-03-29 10:17:48.349 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.pageSize: 8192
+2019-03-29 10:17:48.349 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxOrder: 11
+2019-03-29 10:17:48.349 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-29 10:17:48.349 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-29 10:17:48.349 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-29 10:17:48.350 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-29 10:17:48.350 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-29 10:17:48.350 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-29 10:17:48.351 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-29 10:17:48.361 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.allocator.type: pooled
+2019-03-29 10:17:48.362 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-29 10:17:48.362 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-29 10:18:49.290 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-29 10:18:49.330 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 10:18:49.335 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@164dd4c] was not registered for synchronization because synchronization is not active
+2019-03-29 10:18:49.340 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1020 ] - HikariPool-1 - configuration:
+2019-03-29 10:18:49.342 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - allowPoolSuspension.............false
+2019-03-29 10:18:49.343 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - autoCommit......................true
+2019-03-29 10:18:49.343 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - catalog.........................none
+2019-03-29 10:18:49.343 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionInitSql...............none
+2019-03-29 10:18:49.344 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionTestQuery.............none
+2019-03-29 10:18:49.344 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionTimeout...............30000
+2019-03-29 10:18:49.344 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSource......................none
+2019-03-29 10:18:49.345 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceClassName.............none
+2019-03-29 10:18:49.345 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceJNDI..................none
+2019-03-29 10:18:49.346 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceProperties............{password=<masked>}
+2019-03-29 10:18:49.346 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-03-29 10:18:49.346 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - healthCheckProperties...........{}
+2019-03-29 10:18:49.347 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - healthCheckRegistry.............none
+2019-03-29 10:18:49.348 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - idleTimeout.....................600000
+2019-03-29 10:18:49.348 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - initializationFailTimeout.......1
+2019-03-29 10:18:49.349 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - isolateInternalQueries..........false
+2019-03-29 10:18:49.349 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - jdbcUrl.........................jdbc:mysql://localhost:3306/eul?connectTimeout=1000&useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=CTT
+2019-03-29 10:18:49.349 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - leakDetectionThreshold..........0
+2019-03-29 10:18:49.350 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - maxLifetime.....................1800000
+2019-03-29 10:18:49.350 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - maximumPoolSize.................10
+2019-03-29 10:18:49.350 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - metricRegistry..................none
+2019-03-29 10:18:49.350 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - metricsTrackerFactory...........none
+2019-03-29 10:18:49.351 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - minimumIdle.....................10
+2019-03-29 10:18:49.351 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - password........................<masked>
+2019-03-29 10:18:49.351 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - poolName........................"HikariPool-1"
+2019-03-29 10:18:49.352 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - readOnly........................false
+2019-03-29 10:18:49.352 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - registerMbeans..................false
+2019-03-29 10:18:49.352 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - scheduledExecutor...............none
+2019-03-29 10:18:49.353 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - schema..........................none
+2019-03-29 10:18:49.353 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - threadFactory...................internal
+2019-03-29 10:18:49.353 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - transactionIsolation............default
+2019-03-29 10:18:49.353 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - username........................"root"
+2019-03-29 10:18:49.354 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - validationTimeout...............5000
+2019-03-29 10:18:49.354 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-29 10:18:49.450 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 545 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@88a17a
+2019-03-29 10:18:49.452 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-29 10:18:49.455 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@23858472 wrapping com.mysql.cj.jdbc.ConnectionImpl@88a17a] will not be managed by Spring
+2019-03-29 10:18:49.460 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ c.e.e.mapper.friendsMapper.getByUid_complete : 159 ] - ==>  Preparing: SELECT friend from eul.friend where Uid = ? 
+2019-03-29 10:18:49.484 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ c.e.e.mapper.friendsMapper.getByUid_complete : 159 ] - ==> Parameters: 12(String)
+2019-03-29 10:18:49.505 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 10:18:49.506 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 22(String)
+2019-03-29 10:18:49.507 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======>  Preparing: SELECT * FROM eul.school where ID = ? 
+2019-03-29 10:18:49.508 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======> Parameters: 1(String)
+2019-03-29 10:18:49.510 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 10:18:49.512 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 10:18:49.513 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 4(String)
+2019-03-29 10:18:49.514 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 10:18:49.516 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 10:18:49.517 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 10:18:49.518 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 32(String)
+2019-03-29 10:18:49.521 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 10:18:49.521 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 10:18:49.522 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 3(String)
+2019-03-29 10:18:49.523 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 10:18:49.524 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 5(String)
+2019-03-29 10:18:49.525 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 10:18:49.526 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 10:18:49.527 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ c.e.e.mapper.friendsMapper.getByUid_complete : 159 ] - <==      Total: 3
+2019-03-29 10:18:49.528 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@164dd4c]
+2019-03-29 10:18:49.553 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-03-29 10:18:49.558 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@902fa
+2019-03-29 10:18:49.563 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13408c1
+2019-03-29 10:18:49.567 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fdc8fc
+2019-03-29 10:18:49.572 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11bf78e
+2019-03-29 10:18:49.577 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17a5758
+2019-03-29 10:18:49.580 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@155e82c
+2019-03-29 10:18:49.590 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a74b0d
+2019-03-29 10:18:49.595 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13151ec
+2019-03-29 10:18:49.599 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11ad1f7
+2019-03-29 10:18:49.600 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:19:19.556 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:19:49.558 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:20:19.561 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:20:49.562 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:21:19.564 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 10:21:49.567 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:30:56.694 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 50 ] - Starting EulprojectApplication on MACHENI-3TD0CUP with PID 13212 (started by SANNBAN in E:\程序代码\我的项目\eulproject)
+2019-03-29 15:30:56.725 [ background-preinit ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 15:30:56.741 [ main ] - [ DEBUG ] [ com.eul.eulproject.EulprojectApplication : 53 ] - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-29 15:30:56.741 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 675 ] - No active profile set, falling back to default profiles: default
+2019-03-29 15:30:56.746 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 15:30:56.746 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 15:30:56.746 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 15:30:56.747 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 15:30:56.747 [ background-preinit ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 15:30:57.731 [ main ] - [ DEBUG ] [ org.apache.ibatis.logging.LogFactory : 105 ] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-29 15:30:57.736 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\LoginMapper.class]
+2019-03-29 15:30:57.737 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\ScheduleMapper.class]
+2019-03-29 15:30:57.737 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\chatRecordMapper.class]
+2019-03-29 15:30:57.737 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\classMapper.class]
+2019-03-29 15:30:57.737 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\courseMapper.class]
+2019-03-29 15:30:57.738 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\friendsMapper.class]
+2019-03-29 15:30:57.738 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\majorMapper.class]
+2019-03-29 15:30:57.738 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\messageMapper.class]
+2019-03-29 15:30:57.739 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 437 ] - Identified candidate component class: file [E:\程序代码\我的项目\eulproject\target\classes\com\eul\eulproject\mapper\schoolMapper.class]
+2019-03-29 15:30:57.740 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'loginMapper' and 'com.eul.eulproject.mapper.LoginMapper' mapperInterface
+2019-03-29 15:30:57.741 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'loginMapper'.
+2019-03-29 15:30:57.741 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'scheduleMapper' and 'com.eul.eulproject.mapper.ScheduleMapper' mapperInterface
+2019-03-29 15:30:57.741 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'scheduleMapper'.
+2019-03-29 15:30:57.741 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'chatRecordMapper' and 'com.eul.eulproject.mapper.chatRecordMapper' mapperInterface
+2019-03-29 15:30:57.742 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'chatRecordMapper'.
+2019-03-29 15:30:57.742 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'classMapper' and 'com.eul.eulproject.mapper.classMapper' mapperInterface
+2019-03-29 15:30:57.742 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'classMapper'.
+2019-03-29 15:30:57.742 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'courseMapper' and 'com.eul.eulproject.mapper.courseMapper' mapperInterface
+2019-03-29 15:30:57.743 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+2019-03-29 15:30:57.743 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'friendsMapper' and 'com.eul.eulproject.mapper.friendsMapper' mapperInterface
+2019-03-29 15:30:57.743 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'friendsMapper'.
+2019-03-29 15:30:57.743 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'majorMapper' and 'com.eul.eulproject.mapper.majorMapper' mapperInterface
+2019-03-29 15:30:57.744 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'majorMapper'.
+2019-03-29 15:30:57.744 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'messageMapper' and 'com.eul.eulproject.mapper.messageMapper' mapperInterface
+2019-03-29 15:30:57.744 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'messageMapper'.
+2019-03-29 15:30:57.744 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Creating MapperFactoryBean with name 'schoolMapper' and 'com.eul.eulproject.mapper.schoolMapper' mapperInterface
+2019-03-29 15:30:57.745 [ main ] - [ DEBUG ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 49 ] - Enabling autowire by type for MapperFactoryBean with name 'schoolMapper'.
+2019-03-29 15:30:58.197 [ main ] - [ INFO  ] [ com.eul.eulproject.configuration.shiroConfiguation : 79 ] - 修改了shiro的验证模式
+2019-03-29 15:30:58.260 [ main ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 480 ] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@b4aac2
+2019-03-29 15:30:58.323 [ main ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionFactoryBean : 49 ] - Property 'mapperLocations' was not specified or no matching resources found
+2019-03-29 15:30:59.331 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-29 15:30:59.340 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-03-29 15:30:59.341 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-29 15:30:59.348 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;D:\Putty\;E:\JAVA\maven\apache-maven-3.5.4-bin_2\apache-maven-3.5.4\bin\;D:\Microsoft VS Code\bin;D:\Git\cmd;E:\Python\mongodb-win32-x86_64-2008plus-ssl-4.0.2;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;E:\Node.JS\Node_global;D:\Redis\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Node.js;C:\ProgramData\chocolatey\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python37-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\;C:\Users\SANNBAN\AppData\Local\Programs\Python\Python36-32\Scripts;D:\Microsoft VS Code\bin;E:\bandizip\;C:\Users\SANNBAN\AppData\Local\Microsoft\WindowsApps;E:\Node.JS\Node_global;C:\Users\SANNBAN\AppData\Local\GitHubDesktop\bin;D:\webStorm\WebStorm 2018.3.5\bin;;C:\Users\SANNBAN\AppData\Roaming\npm;D:\pyCharm\PyCharm 2018.3.5\bin;;D:\Clion\CLion 2018.3.4\bin;;.]
+2019-03-29 15:30:59.498 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-03-29 15:30:59.502 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 424 ] - Creating Shiro Filter instance.
+2019-03-29 15:30:59.516 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'requestContextFilter'
+2019-03-29 15:30:59.521 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'hiddenHttpMethodFilter'
+2019-03-29 15:30:59.524 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'formContentFilter'
+2019-03-29 15:30:59.526 [ main ] - [ DEBUG ] [ org.apache.shiro.spring.web.ShiroFilterFactoryBean : 501 ] - Found filter chain candidate filter 'characterEncodingFilter'
+2019-03-29 15:30:59.613 [ main ] - [ INFO  ] [ com.eul.eulproject.tool.springUtil : 21 ] - 获取Spring上下文成功
+2019-03-29 15:30:59.627 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 15:30:59.627 [ main ] - [ DEBUG ] [ o.h.v.m.ResourceBundleMessageInterpolator : 89 ] - Loaded expression factory via original TCCL
+2019-03-29 15:30:59.630 [ main ] - [ DEBUG ] [ o.h.v.i.engine.resolver.TraversableResolvers : 60 ] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-29 15:30:59.632 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 148 ] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-29 15:30:59.632 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 180 ] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-29 15:30:59.633 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ConfigurationImpl : 194 ] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-29 15:30:59.634 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 120 ] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-29 15:30:59.635 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 53 ] - Trying to load META-INF/validation.xml via user class loader
+2019-03-29 15:30:59.635 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 60 ] - Trying to load META-INF/validation.xml via TCCL
+2019-03-29 15:30:59.636 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ResourceLoaderHelper : 66 ] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-29 15:30:59.636 [ main ] - [ DEBUG ] [ o.h.v.internal.xml.config.ValidationXmlParser : 127 ] - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-29 15:30:59.640 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 578 ] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-29 15:30:59.641 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 579 ] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-29 15:30:59.641 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 580 ] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-29 15:30:59.641 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 581 ] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-29 15:30:59.641 [ main ] - [ DEBUG ] [ o.h.validator.internal.engine.ValidatorFactoryImpl : 582 ] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-29 15:31:00.061 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2019-03-29 15:31:00.087 [ main ] - [ INFO  ] [ com.eul.eulproject.EulprojectApplication : 59 ] - Started EulprojectApplication in 3.78 seconds (JVM running for 5.409)
+2019-03-29 15:31:00.098 [ main ] - [ DEBUG ] [ i.n.util.internal.logging.InternalLoggerFactory : 71 ] - Using SLF4J as the default logging framework
+2019-03-29 15:31:00.101 [ main ] - [ DEBUG ] [ io.netty.channel.MultithreadEventLoopGroup : 76 ] - -Dio.netty.eventLoopThreads: 16
+2019-03-29 15:31:00.132 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.noKeySetOptimization: false
+2019-03-29 15:31:00.132 [ main ] - [ DEBUG ] [ io.netty.channel.nio.NioEventLoop : 76 ] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2019-03-29 15:31:00.135 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - Platform: Windows
+2019-03-29 15:31:00.137 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - -Dio.netty.noUnsafe: false
+2019-03-29 15:31:00.137 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - Java version: 8
+2019-03-29 15:31:00.139 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.theUnsafe: available
+2019-03-29 15:31:00.140 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - sun.misc.Unsafe.copyMemory: available
+2019-03-29 15:31:00.141 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - java.nio.Buffer.address: available
+2019-03-29 15:31:00.142 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - direct buffer constructor: available
+2019-03-29 15:31:00.143 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.Bits.unaligned: available, true
+2019-03-29 15:31:00.144 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 71 ] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-03-29 15:31:00.144 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent0 : 76 ] - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-03-29 15:31:00.144 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - sun.misc.Unsafe: available
+2019-03-29 15:31:00.145 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.tmpdir: C:\Users\SANNBAN\AppData\Local\Temp (java.io.tmpdir)
+2019-03-29 15:31:00.146 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2019-03-29 15:31:00.147 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.noPreferDirect: false
+2019-03-29 15:31:00.147 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.maxDirectMemory: 259522560 bytes
+2019-03-29 15:31:00.148 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 76 ] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-03-29 15:31:00.149 [ main ] - [ DEBUG ] [ io.netty.util.internal.CleanerJava6 : 71 ] - java.nio.ByteBuffer.cleaner(): available
+2019-03-29 15:31:00.151 [ main ] - [ DEBUG ] [ io.netty.util.internal.PlatformDependent : 71 ] - org.jctools-core.MpscChunkedArrayQueue: available
+2019-03-29 15:31:00.188 [ main ] - [ INFO  ] [ c.e.e.controller.chat.netty.WebSocketServer : 26 ] - --启动websocket服务--
+2019-03-29 15:31:00.197 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.processId: 13212 (auto-detected)
+2019-03-29 15:31:00.199 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv4Stack: false
+2019-03-29 15:31:00.199 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 76 ] - -Djava.net.preferIPv6Addresses: false
+2019-03-29 15:31:00.548 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 86 ] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2019-03-29 15:31:00.549 [ main ] - [ DEBUG ] [ io.netty.util.NetUtil : 81 ] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2019-03-29 15:31:00.933 [ main ] - [ DEBUG ] [ io.netty.channel.DefaultChannelId : 76 ] - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2019-03-29 15:31:00.938 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-03-29 15:31:00.938 [ main ] - [ DEBUG ] [ io.netty.util.internal.InternalThreadLocalMap : 76 ] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-03-29 15:31:00.945 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.level: simple
+2019-03-29 15:31:00.946 [ main ] - [ DEBUG ] [ io.netty.util.ResourceLeakDetector : 81 ] - -Dio.netty.leakDetection.targetRecords: 4
+2019-03-29 15:31:00.961 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numHeapArenas: 2
+2019-03-29 15:31:00.961 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.numDirectArenas: 2
+2019-03-29 15:31:00.961 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.pageSize: 8192
+2019-03-29 15:31:00.961 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxOrder: 11
+2019-03-29 15:31:00.962 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.chunkSize: 16777216
+2019-03-29 15:31:00.962 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.tinyCacheSize: 512
+2019-03-29 15:31:00.962 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.smallCacheSize: 256
+2019-03-29 15:31:00.962 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.normalCacheSize: 64
+2019-03-29 15:31:00.963 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-03-29 15:31:00.963 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-03-29 15:31:00.963 [ main ] - [ DEBUG ] [ io.netty.buffer.PooledByteBufAllocator : 76 ] - -Dio.netty.allocator.useCacheForAllThreads: true
+2019-03-29 15:31:00.975 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.allocator.type: pooled
+2019-03-29 15:31:00.975 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.threadLocalDirectBufferSize: 0
+2019-03-29 15:31:00.976 [ main ] - [ DEBUG ] [ io.netty.buffer.ByteBufUtil : 76 ] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-03-29 15:32:17.773 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-29 15:32:17.826 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Creating a new SqlSession
+2019-03-29 15:32:17.832 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12746e7] was not registered for synchronization because synchronization is not active
+2019-03-29 15:32:17.839 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1020 ] - HikariPool-1 - configuration:
+2019-03-29 15:32:17.840 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - allowPoolSuspension.............false
+2019-03-29 15:32:17.841 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - autoCommit......................true
+2019-03-29 15:32:17.841 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - catalog.........................none
+2019-03-29 15:32:17.842 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionInitSql...............none
+2019-03-29 15:32:17.842 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionTestQuery.............none
+2019-03-29 15:32:17.842 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - connectionTimeout...............30000
+2019-03-29 15:32:17.843 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSource......................none
+2019-03-29 15:32:17.843 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceClassName.............none
+2019-03-29 15:32:17.844 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceJNDI..................none
+2019-03-29 15:32:17.844 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - dataSourceProperties............{password=<masked>}
+2019-03-29 15:32:17.845 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-03-29 15:32:17.845 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - healthCheckProperties...........{}
+2019-03-29 15:32:17.846 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - healthCheckRegistry.............none
+2019-03-29 15:32:17.846 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - idleTimeout.....................600000
+2019-03-29 15:32:17.846 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - initializationFailTimeout.......1
+2019-03-29 15:32:17.847 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - isolateInternalQueries..........false
+2019-03-29 15:32:17.847 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - jdbcUrl.........................jdbc:mysql://localhost:3306/eul?connectTimeout=1000&useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=CTT
+2019-03-29 15:32:17.847 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - leakDetectionThreshold..........0
+2019-03-29 15:32:17.848 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - maxLifetime.....................1800000
+2019-03-29 15:32:17.848 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - maximumPoolSize.................10
+2019-03-29 15:32:17.848 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - metricRegistry..................none
+2019-03-29 15:32:17.849 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - metricsTrackerFactory...........none
+2019-03-29 15:32:17.849 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - minimumIdle.....................10
+2019-03-29 15:32:17.849 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - password........................<masked>
+2019-03-29 15:32:17.850 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - poolName........................"HikariPool-1"
+2019-03-29 15:32:17.850 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - readOnly........................false
+2019-03-29 15:32:17.850 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - registerMbeans..................false
+2019-03-29 15:32:17.850 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - scheduledExecutor...............none
+2019-03-29 15:32:17.851 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - schema..........................none
+2019-03-29 15:32:17.851 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - threadFactory...................internal
+2019-03-29 15:32:17.851 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - transactionIsolation............default
+2019-03-29 15:32:17.852 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - username........................"root"
+2019-03-29 15:32:17.852 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.HikariConfig : 1052 ] - validationTimeout...............5000
+2019-03-29 15:32:17.852 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-03-29 15:32:17.970 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 545 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c59733
+2019-03-29 15:32:17.972 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-03-29 15:32:17.975 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ o.m.spring.transaction.SpringManagedTransaction : 49 ] - JDBC Connection [HikariProxyConnection@1158328 wrapping com.mysql.cj.jdbc.ConnectionImpl@c59733] will not be managed by Spring
+2019-03-29 15:32:17.980 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ c.e.e.mapper.friendsMapper.getByUid_complete : 159 ] - ==>  Preparing: SELECT friend from eul.friend where Uid = ? 
+2019-03-29 15:32:18.001 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ c.e.e.mapper.friendsMapper.getByUid_complete : 159 ] - ==> Parameters: 12(String)
+2019-03-29 15:32:18.031 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 15:32:18.032 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 22(String)
+2019-03-29 15:32:18.035 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======>  Preparing: SELECT * FROM eul.school where ID = ? 
+2019-03-29 15:32:18.036 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - ======> Parameters: 1(String)
+2019-03-29 15:32:18.037 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.schoolMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 15:32:18.039 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 15:32:18.040 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 4(String)
+2019-03-29 15:32:18.042 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 15:32:18.043 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 15:32:18.044 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 15:32:18.044 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 32(String)
+2019-03-29 15:32:18.046 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 15:32:18.047 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====>  Preparing: SELECT * FROM eul.message where ID = ? 
+2019-03-29 15:32:18.048 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - ====> Parameters: 3(String)
+2019-03-29 15:32:18.050 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======>  Preparing: Select * from eul.major where ID = ? 
+2019-03-29 15:32:18.051 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - ======> Parameters: 5(String)
+2019-03-29 15:32:18.052 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.majorMapper.getByID : 159 ] - <======      Total: 1
+2019-03-29 15:32:18.053 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ com.eul.eulproject.mapper.messageMapper.getByUid : 159 ] - <====      Total: 1
+2019-03-29 15:32:18.054 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ c.e.e.mapper.friendsMapper.getByUid_complete : 159 ] - <==      Total: 3
+2019-03-29 15:32:18.055 [ http-nio-8088-exec-1 ] - [ DEBUG ] [ org.mybatis.spring.SqlSessionUtils : 49 ] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12746e7]
+2019-03-29 15:32:18.073 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-03-29 15:32:18.084 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@178fff2
+2019-03-29 15:32:18.088 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45f5c9
+2019-03-29 15:32:18.092 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c71f61
+2019-03-29 15:32:18.097 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a0a86
+2019-03-29 15:32:18.101 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1b6ec
+2019-03-29 15:32:18.106 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24564d
+2019-03-29 15:32:18.110 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25a6d1
+2019-03-29 15:32:18.115 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@84f13c
+2019-03-29 15:32:18.119 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 709 ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@93b76d
+2019-03-29 15:32:18.119 [ HikariPool-1 connection adder ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:32:48.074 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:33:18.076 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:33:48.078 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:34:18.080 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:34:48.083 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:35:18.085 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:35:48.087 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:36:18.088 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:36:48.091 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:37:18.093 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:37:48.095 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:38:18.096 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:38:48.098 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:39:18.099 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:39:48.100 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-03-29 15:40:18.103 [ HikariPool-1 housekeeper ] - [ DEBUG ] [ com.zaxxer.hikari.pool.HikariPool : 411 ] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
