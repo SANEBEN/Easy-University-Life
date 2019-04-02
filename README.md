@@ -44,7 +44,7 @@
         "messageSimple": {
             "ID": 12,
             "IDNumber": "201711000619",
-            "realName": "沈慧贤",
+            "realName": "***",
             "role": 1
         },
         "courseSimpleList": [
@@ -52,33 +52,33 @@
                 "ID": 3,
                 "name": "课堂3",
                 "Tid": 39,
-                "teacher": "胡宇阳"
+                "teacher": "***"
             },
             {
                 "ID": 1,
                 "name": "课堂1",
                 "Tid": 19,
-                "teacher": "吴胜洋"
+                "teacher": "***"
             },
             {
                 "ID": 8,
                 "name": "课堂8",
                 "Tid": 80,
-                "teacher": "刘烜君"
+                "teacher": "***"
             }
         ],
         "friendSimpleList": [
             {
                 "ID": 22,
-                "name": "杨云凯"
+                "name": "***"
             },
             {
                 "ID": 32,
-                "name": "陈安达"
+                "name": "***"
             },
             {
                 "ID": 3,
-                "name": "胡旭"
+                "name": "**"
             }
         ]
     }
@@ -115,9 +115,9 @@
 
 ```Json
 {
-    "realName": "沈慧贤",
+    "realName": "***",
     "school": {
-        "name": "华北电力大学（保定）",
+        "name": "****大学",
         "description": "",
         "id": "1"
     },
@@ -155,9 +155,9 @@
 {
     "name": "课堂3",
     "teacher": {
-        "realName": "胡宇阳",
+        "realName": "***",
         "school": {
-            "name": "华北电力大学（保定）",
+            "name": "****大学",
             "description": "",
             "id": "1"
         },
@@ -205,9 +205,9 @@
     {
         "name": "课堂3",
         "teacher": {
-            "realName": "胡宇阳",
+            "realName": "***",
             "school": {
-                "name": "华北电力大学（保定）",
+                "name": "****大学",
                 "description": "",
                 "id": "1"
             },
@@ -239,9 +239,9 @@
     {
         "name": "课堂1",
         "teacher": {
-            "realName": "吴胜洋",
+            "realName": "***",
             "school": {
-                "name": "华北电力大学（保定）",
+                "name": "****大学",
                 "description": "",
                 "id": "1"
             },
@@ -273,9 +273,9 @@
     {
         "name": "课堂8",
         "teacher": {
-            "realName": "刘烜君",
+            "realName": "***",
             "school": {
-                "name": "华北电力大学（保定）",
+                "name": "****大学",
                 "description": "",
                 "id": "1"
             },
@@ -325,9 +325,9 @@
 [
     {
         "friend": {
-            "realName": "杨云凯",
+            "realName": "***",
             "school": {
-                "name": "华北电力大学（保定）",
+                "name": "****大学",
                 "description": "",
                 "id": "1"
             },
@@ -349,9 +349,9 @@
     },
     {
         "friend": {
-            "realName": "陈安达",
+            "realName": "***",
             "school": {
-                "name": "华北电力大学（保定）",
+                "name": "****大学",
                 "description": "",
                 "id": "1"
             },
@@ -373,9 +373,9 @@
     },
     {
         "friend": {
-            "realName": "胡旭",
+            "realName": "**",
             "school": {
-                "name": "华北电力大学（保定）",
+                "name": "******大学",
                 "description": "",
                 "id": "1"
             },
