@@ -1,6 +1,6 @@
 package com.eul.eulproject.mapper;
 
-import com.eul.eulproject.entity.friends.friendSimple;
+import com.eul.eulproject.entity.friends.friendsSimple;
 import com.eul.eulproject.entity.friends.friend;
 import com.eul.eulproject.entity.information.message;
 import org.apache.ibatis.annotations.One;
@@ -17,7 +17,7 @@ public interface friendsMapper {
 
     @Select("SELECT friend from eul.friend where Uid = #{Uid}")
     @Results({
-            @Result(column = "friend" ,property = "ID" ,jdbcType = JdbcType.SMALLINT ,id = true),
+            @Result(column = "friend" ,property = "id" ,jdbcType = JdbcType.SMALLINT ,id = true),
             @Result(column = "friend" ,property = "friend" ,javaType = message.class ,
             one = @One(select = "com.eul.eulproject.mapper.messageMapper.getAsFriend"))
     })
@@ -25,7 +25,7 @@ public interface friendsMapper {
 
     @Select("SELECT friend from eul.friend where Uid = #{Uid}")
     @Results({
-            @Result(column = "friend" ,property = "ID" ,jdbcType = JdbcType.SMALLINT ,id = true),
+            @Result(column = "friend" ,property = "id" ,jdbcType = JdbcType.SMALLINT ,id = true),
             @Result(column = "friend" ,property = "friend" ,javaType = message.class ,
                     one = @One(select = "com.eul.eulproject.mapper.messageMapper.getByUid"))
     })
@@ -33,9 +33,9 @@ public interface friendsMapper {
 
     @Select("SELECT friend from eul.friend where Uid = #{Uid}")
     @Results({
-            @Result(column = "friend" ,property = "ID" ,jdbcType = JdbcType.SMALLINT ,id = true),
+            @Result(column = "friend" ,property = "id" ,jdbcType = JdbcType.SMALLINT ,id = true),
             @Result(column = "friend" ,property = "name" ,javaType = message.class ,
                     one = @One(select = "com.eul.eulproject.mapper.messageMapper.getName"))
     })
-    List<friendSimple> getSimpleFriends(String Uid);
+    List<friendsSimple> getSimpleFriends(String Uid);
 }

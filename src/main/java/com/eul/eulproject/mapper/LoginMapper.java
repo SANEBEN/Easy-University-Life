@@ -16,8 +16,8 @@ public interface LoginMapper {
     @Select("SELECT * FROM eul.login where loginName = #{Name}")
     login getByName(String Name);
 
-    @Update("UPDATE eul.login set password = #{password} where ID = #{ID}")
-    boolean update(String ID ,String password);
+    @Update("UPDATE eul.login set password = #{password} where id = #{id}")
+    boolean update(String id ,String password);
 
     @Select("SELECT * FROM eul.login")
     List<login> getAll();

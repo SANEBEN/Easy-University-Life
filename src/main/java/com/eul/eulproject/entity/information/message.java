@@ -1,12 +1,9 @@
 package com.eul.eulproject.entity.information;
 
-import com.eul.eulproject.entity.major;
-import com.eul.eulproject.entity.school;
-
 import java.util.Date;
 
 public class message {
-    private int ID;
+    private int id;
     private String IDNumber;
     private String realName;
     private String Sid;
@@ -18,12 +15,12 @@ public class message {
     private Date createdTime;
     private int role;
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getIDNumber() {

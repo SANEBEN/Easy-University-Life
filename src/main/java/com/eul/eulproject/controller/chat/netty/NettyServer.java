@@ -9,9 +9,9 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class WebSocketServer {
+public class NettyServer {
 
-    private Logger logger = LoggerFactory.getLogger(WebSocketServer.class);
+    private Logger logger = LoggerFactory.getLogger(NettyServer.class);
 
     public void run(int Port) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
@@ -20,7 +20,7 @@ public class WebSocketServer {
             ServerBootstrap b = new ServerBootstrap();
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
-                    .childHandler(new WebSocketServerInitializer())
+                    .childHandler(new NettyServerInitializer())
                     .option(ChannelOption.SO_BACKLOG, 128)
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
             logger.info("--启动websocket服务--");

@@ -22,8 +22,10 @@ public class getChatRecord {
         this.chatRecordService = chatRecordService;
     }
 
-    @PostMapping("/getRecordByUid")
-    public List<Record> getRecordByUid(@Param(value = "Uid") String Uid){
-        return chatRecordService.getByUid(Uid);
+    @PostMapping("/getRecord")
+    public List<Record> getRecordByUid(
+            @Param(value = "fId") String fId,
+            @Param(value = "mId") String mId){
+        return chatRecordService.getRecord(fId,mId);
     }
 }

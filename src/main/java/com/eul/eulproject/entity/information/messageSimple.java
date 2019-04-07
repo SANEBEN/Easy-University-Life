@@ -1,17 +1,17 @@
 package com.eul.eulproject.entity.information;
 
 public class messageSimple {
-    private int ID;
+    private int id;
     private String IDNumber;
     private String realName;
     private int role;
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getIDNumber() {

@@ -1,7 +1,7 @@
 package com.eul.eulproject.service.Imp;
 
 import com.eul.eulproject.entity.course.course;
-import com.eul.eulproject.entity.course.courseSimple;
+import com.eul.eulproject.entity.course.coursesSimple;
 import com.eul.eulproject.mapper.courseMapper;
 import com.eul.eulproject.service.courseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ public class courseServiceImp implements courseService {
     }
 
     @Override
-    public courseSimple getSimpleByID(String ID) {
+    public coursesSimple getSimpleByID(String ID) {
         return courseMapper.getSimpleByID(ID);
     }
 }

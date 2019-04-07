@@ -16,7 +16,7 @@ public interface ScheduleMapper {
 
     @Select("SELECT course FROM eul.schedule where Uid = #{Uid}")
     @Results({
-            @Result(column = "course" ,property = "ID" ,jdbcType = JdbcType.SMALLINT, id =true),
+            @Result(column = "course" ,property = "id" ,jdbcType = JdbcType.SMALLINT, id =true),
             @Result(column = "course" ,property = "course" ,javaType = course.class ,
             one = @One(select = "com.eul.eulproject.mapper.courseMapper.getByID"))
     })

@@ -3,7 +3,7 @@ package com.eul.eulproject.entity.course;
 import com.eul.eulproject.entity.information.message;
 
 public class course {
-    private int ID;
+    private int id;
     private String name;
     private int Tid;
     private message teacher;
@@ -16,12 +16,12 @@ public class course {
     private int time_end;
     private int type;
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

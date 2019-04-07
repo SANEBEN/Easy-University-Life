@@ -1,15 +1,15 @@
 package com.eul.eulproject.entity.form;
 
-import com.eul.eulproject.entity.course.courseSimple;
-import com.eul.eulproject.entity.friends.friendSimple;
+import com.eul.eulproject.entity.course.coursesSimple;
+import com.eul.eulproject.entity.friends.friendsSimple;
 import com.eul.eulproject.entity.information.messageSimple;
 
 import java.util.List;
 
 public class simpleData {
     private messageSimple messageSimple;
-    private List<courseSimple> courseSimpleList;
-    private List<friendSimple> friendSimpleList;
+    private List<coursesSimple> coursesSimpleList;
+    private List<friendsSimple> friendsSimpleList;
 
     public com.eul.eulproject.entity.information.messageSimple getMessageSimple() {
         return messageSimple;
@@ -19,19 +19,19 @@ public class simpleData {
         this.messageSimple = messageSimple;
     }
 
-    public List<courseSimple> getCourseSimpleList() {
-        return courseSimpleList;
+    public List<coursesSimple> getCourseSimpleList() {
+        return coursesSimpleList;
     }
 
-    public void setCourseSimpleList(List<courseSimple> courseSimpleList) {
-        this.courseSimpleList = courseSimpleList;
+    public void setCourseSimpleList(List<coursesSimple> courseSimpleList) {
+        this.coursesSimpleList = courseSimpleList;
     }
 
-    public List<friendSimple> getFriendSimpleList() {
-        return friendSimpleList;
+    public List<friendsSimple> getFriendSimpleList() {
+        return friendsSimpleList;
     }
 
-    public void setFriendSimpleList(List<friendSimple> friendSimpleList) {
-        this.friendSimpleList = friendSimpleList;
+    public void setFriendSimpleList(List<friendsSimple> friendSimpleList) {
+        this.friendsSimpleList = friendSimpleList;
     }
 }

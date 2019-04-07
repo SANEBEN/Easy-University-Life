@@ -22,7 +22,7 @@ public class MyShiroRealm extends AuthorizingRealm {
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         login login = (login) principalCollection.getPrimaryPrincipal();
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
-        message message = messageService.getMessage(login.getID());
+        message message = messageService.getMessage(login.getId());
         if(message.getRole() == 0){
             authorizationInfo.addRole("teacher");
         }else {

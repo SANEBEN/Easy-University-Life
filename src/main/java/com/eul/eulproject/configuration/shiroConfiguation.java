@@ -49,10 +49,9 @@ public class shiroConfiguation {
      * 身份认证realm; (这个需要自己写，账号密码校验；权限等)
      */
     @Bean("MyShiroRealm")
-    public MyShiroRealm myShiroRealm(@Qualifier("HashedCredentialsMatcher") HashedCredentialsMatcher matcher) {
+    public MyShiroRealm myShiroRealm() {
         MyShiroRealm realm = new MyShiroRealm();
         realm.setAuthorizationCachingEnabled(false);
-       // realm.setCredentialsMatcher(matcher);
         return realm;
     }
 

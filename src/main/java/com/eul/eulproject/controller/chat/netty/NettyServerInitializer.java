@@ -11,9 +11,9 @@ import io.netty.handler.codec.string.StringEncoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class WebSocketServerInitializer extends ChannelInitializer<SocketChannel> {
+public class NettyServerInitializer extends ChannelInitializer<SocketChannel> {
 
-    private Logger logger = LoggerFactory.getLogger(WebSocketServerInitializer.class);
+    private Logger logger = LoggerFactory.getLogger(NettyServerInitializer.class);
 
     @Override
     protected void initChannel(SocketChannel ch) {
@@ -22,7 +22,7 @@ public class WebSocketServerInitializer extends ChannelInitializer<SocketChannel
         pipeline.addLast("framer", new DelimiterBasedFrameDecoder(8192, Delimiters.lineDelimiter()));
         pipeline.addLast("decoder", new StringDecoder());
         pipeline.addLast("encoder", new StringEncoder());
-        pipeline.addLast("handler", new WebSocketServerHandler());
+        pipeline.addLast("handler", new NettyServerHandler());
         logger.info("websocket客服端-->" + ch.remoteAddress() + "成功建立了连接");
     }
 

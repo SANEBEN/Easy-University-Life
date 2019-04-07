@@ -15,9 +15,9 @@ import org.springframework.stereotype.Service;
 @Repository
 public interface messageMapper {
 
-    @Select("SELECT * FROM eul.message where ID = #{Uid}")
+    @Select("SELECT * FROM eul.message where id = #{Uid}")
     @Results({
-            @Result(column = "ID" ,property = "ID" ,jdbcType = JdbcType.SMALLINT ,id=true),
+            @Result(column = "id" ,property = "id" ,jdbcType = JdbcType.SMALLINT ,id=true),
             @Result(column = "IDNumber" ,property = "IDNumber" ,jdbcType = JdbcType.VARCHAR),
             @Result(column = "realName" ,property = "realName" ,jdbcType = JdbcType.VARCHAR),
             @Result(column = "school" ,property = "Sid" ,jdbcType = JdbcType.SMALLINT),
@@ -33,12 +33,12 @@ public interface messageMapper {
     })
     message getByUid(String Uid);
 
-    @Select("Select IDNumber, realName, school, major, gender, email from eul.message where ID = #{Uid}")
+    @Select("Select IDNumber, realName, school, major, gender, email from eul.message where id = #{Uid}")
     message getAsFriend(String Uid);
 
-    @Select("SELECT realName from eul.message where ID = #{Uid}")
+    @Select("SELECT realName from eul.message where id = #{Uid}")
     String getName(String Uid);
 
-    @Select("SELECT ID, IDNumber, realName, role FROM eul.message where ID = #{Uid}")
+    @Select("SELECT ID, IDNumber, realName, role FROM eul.message where id = #{Uid}")
     messageSimple getSimpleMessage(String Uid);
 }

@@ -1,6 +1,6 @@
 package com.eul.eulproject.service.Imp;
 
-import com.eul.eulproject.entity.friends.friendSimple;
+import com.eul.eulproject.entity.friends.friendsSimple;
 import com.eul.eulproject.entity.friends.friend;
 import com.eul.eulproject.mapper.friendsMapper;
 import com.eul.eulproject.service.friendService;
@@ -30,7 +30,7 @@ public class friendServiceImp implements friendService {
     }
 
     @Override
-    public List<friendSimple> getSimpleFriends(String Uid) {
+    public List<friendsSimple> getSimpleFriends(String Uid) {
         return friendsMapper.getSimpleFriends(Uid);
     }
 }

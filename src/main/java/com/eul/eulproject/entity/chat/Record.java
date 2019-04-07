@@ -1,20 +1,21 @@
 package com.eul.eulproject.entity.chat;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Record {
-    private int ID;
+    private int id;
     private int FROM_id;
     private int TO_id;
     private Date time;
     private String content;
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getFROM_id() {
@@ -33,7 +34,11 @@ public class Record {
         this.TO_id = TO_id;
     }
 
-    public Date getTime() {
+    public String getTime() {
+        return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(time );
+    }
+
+    public Date getTime_AsDate(){
         return time;
     }
 

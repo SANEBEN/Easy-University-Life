@@ -13,6 +13,12 @@ public interface chatRecordMapper {
     @Select("SELECT * FROM eul.chatrecord where FROM_id = #{Uid}")
     List<Record> getByUid(String Uid);
 
-    @Insert("insert into eul.chatrecord(ID, `FROM`, `TO`, time, content) VALUES (#{ID} ,#{FROM} ,#{TO} ,#{time} ,#{content})")
+    @Select("SELECT * FROM eul.chatrecord where FROM_id = #{myId} and TO_id = #{friendId}")
+    List<Record> getRecord_from(String friendId,String myId);
+
+    @Select("SELECT * FROM eul.chatrecord where FROM_id = #{friendId} and TO_id = #{myId}")
+    List<Record> getRecord_to(String friendId,String myId);
+
+    @Insert("insert into eul.chatrecord(FROM_id, TO_id, time, content) VALUES  (#{FROM_id} ,#{TO_id} ,#{time} ,#{content})")
     boolean insert(Record record);
 }

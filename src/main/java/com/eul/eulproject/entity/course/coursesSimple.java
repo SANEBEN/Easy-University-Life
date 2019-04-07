@@ -1,17 +1,17 @@
 package com.eul.eulproject.entity.course;
 
-public class courseSimple {
-    private int ID;
+public class coursesSimple {
+    private int id;
     private String name;
     private int Tid;
     private String teacher;
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

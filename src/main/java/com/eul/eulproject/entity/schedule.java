@@ -3,15 +3,15 @@ package com.eul.eulproject.entity;
 import com.eul.eulproject.entity.course.course;
 
 public class schedule {
-    private int ID;
+    private int id;
     private course course;
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public com.eul.eulproject.entity.course.course getCourse() {

@@ -3,15 +3,15 @@ package com.eul.eulproject.entity.friends;
 import com.eul.eulproject.entity.information.message;
 
 public class friend {
-    private int ID;
+    private int id;
     private message friend;
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public message getFriend() {

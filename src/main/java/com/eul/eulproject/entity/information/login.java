@@ -1,16 +1,16 @@
 package com.eul.eulproject.entity.information;
 
 public class login {
-    private String ID;
+    private String id;
     private String loginName;
     private String password;
 
-    public String getID() {
-        return ID;
+    public String getId() {
+        return id;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getLoginName() {

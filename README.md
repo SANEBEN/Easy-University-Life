@@ -1,4 +1,4 @@
-# EUL项目文档
+# Easy University Life
 
 ## 项目介绍
 
@@ -10,6 +10,10 @@
 
 > websocket服务端口号： 9999
 
+## 数据库配置信息
+
+（由于项目还处在实现阶段，数据库的结构没有最终确定下来，暂时还没有相关的信息）
+
 ## 项目接口说明
 
 * <a href = "#login">1. 登录功能实现</a>
@@ -18,7 +22,7 @@
   * <a href = "#getCourseByID">3.1 通过课程ID获取课程的完整信息</a>
   * <a href = "#getCourseByUid">3.2 通过学生的ID获取所选课程的完整信息</a>
 * <a href = "#getFriendsByUid">4.根据用户的ID来获取好友的详细信息</a>
-* <a href = "#getChatRecord">获取用户的聊天记录</a>
+* <a href = "#getChatRecord">5.获取用户的聊天记录</a>
 
 ### 登录功能实现
 
